@@ -60,24 +60,20 @@ footer{
   }
   main{
     width:100%;
-    display:block;
+    flex-direction: column;
   }
   .box{
     width:90%;
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-right:5%;
-    margin-left:5%;
+    margin:20px auto;
   }
   .box:first-child{
     margin-top:0;
   }
   .box:last-child{
-    margin-bottom:0;
-  }
-  .box-title{
+    margin:20px auto 0 auto;
 
   }
-  .box-text{
+  .footer{
+    width:100%;
   }
 }
